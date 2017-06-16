@@ -1,0 +1,7 @@
+papers
+*.pdf
+*.zip
+*.txt
+*.pyc
+*__MACOSX
+*data*
