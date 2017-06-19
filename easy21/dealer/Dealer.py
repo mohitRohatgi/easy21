@@ -14,7 +14,7 @@ class Dealer:
     def __init__(self):
         self.dealer_total = np.random.randint(1, 11)
     
-    def play_move(self, players_total):
+    def play_move(self):
         while self.dealer_total < 17 :
             self.dealer_total += self.hit()
     
